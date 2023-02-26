@@ -1,20 +1,22 @@
 class script(object):   
     HELP_TXT = """𝙷𝙴𝚈 {}\n𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
 
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/mr_MKN>𝙈𝙧.𝙈𝙆𝙉 𝙏𝙂</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙰𝙽𝚈𝚆𝙷𝙴𝚁𝙴
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 𝙿𝚁𝙾𝙵𝙴𝚂𝚂𝙾𝚁-𝙱𝙾𝚃 𝚟3.0.0"""
+    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+✯ 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : <a href=https://t.me/ArrowFlix><b>𝙰𝚛𝚛𝚘𝚠𝙵𝚕𝚒𝚡</b></a>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+✯ 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : 𝚟𝟺.𝟶.𝟶"""
 
-    SOURCE_TXT = """<b>NOTE:</b>
-- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁 👉 :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑-𝐁𝐎𝐓</a>
+    SOURCE_TXT = """<b>NOTE:</b>"""
 
-<b>DEVS:</b>
-- 𝙳𝚎𝚟 1<a href=https://t.me/mr_MKN>𝙼𝚛.𝙼𝙺𝙽 𝚃𝙶</a>
-- 𝙳𝚎𝚟 2<a href=https://t.me/AboutAadhi>𝙰𝙰𝙳𝙷𝙸</a>"""
+    HOW_TXT = """<b><i>𝟷⁦◖⁩ ارسل اسم المسلسل او الفيلم في <a href=https://t.me/ArrowFlix/><b>جروب المناقشة</b></a>\nSend Series or Movies Name in <a href=https://t.me/ArrowFlix/><b>Group</b></a>\n𝟸⁦◖⁩⁩ يقوم البوت بارساله لك بعد ثواني\nThe bot will send it to you in 3 seconds.\n𝟹⁦◖⁩⁩ لتسهيل البحث اكتب اسم المسلسل والموسم\nمثل:-\n❍ Game Of Thrones S03\n❍ Breaking Bad S01 1080p\n❍ Lord of the Rings S01 720p\n<b><i>"""
+
+    NHOW_TXT = """<b><i>𝟷◖⁩⁩ فيديو خام بدون لوجو\n𝟸◖⁩⁩ ⁩جودة اصلية و حجم قليل مقارنة بالمواقع\n𝟹⁩◖⁩⁩ جودة صوت افضل\n𝟺◖⁩ تشغيل اكثر من ترجمة في نفس الوقت\n𝟻◖⁩⁩ اختيار الترجمة المناسبة (المترجم المفضل)\n𝟼◖⁩ مسلسلات Netflix , AppleTV , Prime تأتي بأكثر من 30 ترجمة\n<b><i>"""
+
+    HOWADD_TXT = """<b><i>❍ <a href=https://subscene.com/><b>مـوقـع تحميل الـترجمة</b></a>
+❍ <a href=http://telegra.ph/Muxed-English-Subtitles-12-29-9><b>بــرامــج الـمــشـاهـــدة</b></a>
+❍ <a href=https://telegra.ph/%D8%B7%D8%B7%D8%B1%D9%8A%D8%A9-%D8%AF%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-11-22><b>اضــافـــة الـتــرجــمــة</b></a>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
@@ -162,9 +164,7 @@ By {f}
     
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
-<b>᚛› 𝐔𝐍 - @{}</b>
-
-By @{} """
+<b>᚛› 𝐔𝐍 - @{}</b>"""
    
     ZOMBIES_TXT = """𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙺𝙸𝙲𝙺 𝚄𝚂𝙴𝚁𝚂
 
